@@ -11,5 +11,9 @@ int main(){
     cout<<"He liked the name "<<name<<endl;
     cout<<"But did not like being "<<age<<endl;
     return 0;
+    //Variables: Containers that store data
+        //They help us to maintain and keep track of data.
+        //They can be modified in the program.
+        //Can also be declared once and used multiple times in a program.
 }
 
