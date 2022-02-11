@@ -19,4 +19,27 @@ bitwise (&,|,^,~,>>,<<) --> these operators perform operations bit by bit
               num2=22 /* equal to 00010110 */
               num1 & num2 =  00000010  (both 1 means 1)
               num1 | num2 =  00011111  (one 1 also means 1)
-ternary (?:)
+ternary or conditional (?:)  --> [(condition)?true:false]
+
+##loops: executing a block of statements repeatedly until a particular condition is satisfied
+
+types of loop:
+    for loop (entry-controlled)
+    while loop (entry-controlled)
+    do...while (exit-controlled) (executes at least once)
+
+for (initialization : condition : update){
+    code
+}
+
+while (condition){
+    code
+    update
+}
+
+do{
+    code
+    update
+}
+while(condition)
+
