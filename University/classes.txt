@@ -1,4 +1,4 @@
-Class -- Blue print of your object
+Class -- Blue print or Skeleton of your object
         -- Combination of objects
         -- No memory is used to define it without objects
 
@@ -8,8 +8,12 @@ Object -- An instance of a class
 Example:        
 
 class Class_Name{
-    Access Specifier;   //can be public,private or protected
-    Data members;       // Variables to be used
+    Access Specifier;     //can be public,private or protected
+    Data members;         //Variables to be used
     Member functions(){}; //Methods to access data members
-};                          //Class name ends with a semicolon;
+};                        //Class name ends with a semicolon;
 
+Private : can not be accessed outside the class,
+          can only be accessed using member functions of the class
+Public : It is accessible to everyone outside the class
+Protected : Are accessible to class itself and its child classes
