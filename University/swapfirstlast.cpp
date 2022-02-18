@@ -1,15 +1,12 @@
 //Experiment 1.2
 //WAP to swap first and last of any number i/p: 12345 o/p: 52341
-//aim
-//code
-//output
-//explanation(3-4 lines)
+
 #include <iostream>
 using namespace std;
 int main(){
     int first,remain,k,last,m,num,z;
     int i=0;
-    cout<<"Enter : ";
+    cout<<"Enter a number : ";
     cin>>m;
     num=m;
     while (m>0){
