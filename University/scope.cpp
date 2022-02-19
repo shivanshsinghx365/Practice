@@ -3,6 +3,7 @@
 //Display the various values of the same variable.
 #include <iostream>
 using namespace std;
+int our_variable=1; //Global Variable
 class my_class{
     public:
     int my_variable=10;
@@ -16,4 +17,7 @@ int main(){
     cout<<endl;
     eleven.display();
     cout<<endl;
+    int our_variable=100; //Local variable
+    cout<<"Global variable = "<<::our_variable<<endl;
+    cout<<"Local variable = "<<our_variable<<endl;
 }
