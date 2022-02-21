@@ -3,12 +3,10 @@
 #include <iostream>
 using namespace std;
 inline int MAX(int a,int b, int c){
-    int mi=((a>b)?(a>c?a:c):(b>c?b:c));
-    return mi;
+    return ((a>b)?(a>c?a:c):(b>c?b:c));
 }
 inline int MIN(int a,int b, int c){
-    int my=((a<b)?(a<c?a:c):(b<c?b:c));
-    return my;
+    return ((a<b)?(a<c?a:c):(b<c?b:c));
 }
 int main(){
     int first,second,third;
