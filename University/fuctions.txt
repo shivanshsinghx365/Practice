@@ -1,0 +1,6 @@
+Function: a group of statements that together perform a task
+Benefits: saves memory, reduces redundancy, performs a bunch of tasks are performed
+- in normal function the control is passed to the function from the main program
+- but in inline function the control is not passed, instead the lines of function are placed in
+main program itself, it is useful if the function only has one or two statement, if there are
+more lines then the program automatically becomes normal
