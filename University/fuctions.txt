@@ -4,3 +4,6 @@ Benefits: saves memory, reduces redundancy, performs a bunch of tasks are perfor
 - but in inline function the control is not passed, instead the lines of function are placed in
 main program itself, it is useful if the function only has one or two statement, if there are
 more lines then the program automatically becomes normal
+-inline functions speeds up program by avoiding function calling overhead
+    -saves overhead of variable pop/push on the stack, when function calling happens
+    -it saves overhead of return call from a functions
