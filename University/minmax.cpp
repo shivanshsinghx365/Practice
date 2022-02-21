@@ -1,3 +1,5 @@
+//Experiment 3.1
+//WAP to find the largest & smallest of the three numbers using inline MAX & MIN functions
 #include <iostream>
 using namespace std;
 inline int MAX(int a,int b, int c){
