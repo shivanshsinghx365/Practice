@@ -7,11 +7,22 @@ c. Display the result
 #include <iostream>
 #include <math.h>
 using namespace std;
-int main(){
+class circle{
+    public:
     int r;
     float a;
-    cout<<"Enter Radius : ";
-    cin>>r;
-    a=M_PI*r*r;
-    cout<<"Area = "<<a<<endl;
+    float pi=M_PI;
+    void radius(){
+        cout<<"Enter Radius : ";
+        cin>>r;
+    }
+    void area(){
+        a=pi*r*r;
+        cout<<"Area = "<<a<<endl;
+    }
+};
+int main(){
+    circle one;
+    one.radius();
+    one.area();
 }
