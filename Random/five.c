@@ -1,4 +1,7 @@
 //NOTE : USE ONLY ONE METHOD AT A TIME !
+//WAP to take number from user until its divisible by 5
+//4 methods have been used in this program to do the same, you can chose any one
+//every method is seperated by comments as obvious
 
 #include <stdio.h>
 
