@@ -8,5 +8,8 @@
         "acnum",
         "Ename",
         "padx"
+    ],
+    "cSpell.ignoreWords": [
+        "geter"
     ]
 }
