@@ -17,3 +17,14 @@ Private : can not be accessed outside the class,
           can only be accessed using member functions of the class
 Public : It is accessible to everyone outside the class
 Protected : Are accessible to class itself and its child classes
+
+:: is called binary scope operator
+functions defined inside class are by default taken as inline functions
+member functions and function are same thing
+each object is allocated its own memory
+to access private functions we use accessor and mutator, or getter and setter
+
+syntax of defining function outside: 
+(for this the function must still be publicly declared in the class)
+
+return_type class_name::function_name(parameters){code}
