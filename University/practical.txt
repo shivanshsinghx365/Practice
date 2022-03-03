@@ -1,0 +1,16 @@
+Practical 3.1: Write a program to find the largest& smallest of three numbers. 
+(Use inline function MAX and MIN).
+
+Practical 3.2:A dining hall can accommodate only 50 guests. 
+Create a class to store seat number (Generated Automatically) 
+and name of the guests who are seated on first come first seated basis. 
+Define functions to display name of all guests along with seat number. 
+Write a program to show the working of this class using the concept of static data member 
+and static function.
+
+Practical 3.3: WAP to swap private data members of classes named as class_1, 
+class_2 using friend function.
+
+Practical 3.4: WAP to create a class complex to represent complex numbers. 
+The complex class should use a function to add two complex numbers which are passed as arguments. 
+The function should return an object of type complex representing the sum of two complex numbers.
