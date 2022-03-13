@@ -9,6 +9,7 @@
         "Ename",
         "imread",
         "imshow",
+        "imwrite",
         "mili",
         "opencv",
         "padx"
