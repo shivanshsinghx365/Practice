@@ -7,7 +7,7 @@ cv2.imshow('hello',img) #1st is window name & 2nd is image variable img
 #shows & exists very fast
 k=cv2.waitKey(5000)   #wait is for waitins the number in brackets is in mili seconds
 #k is just created for checking what key is pressed, waitKey can be used without k as well
-# if you wait 0, then it won't close automatically and would wait for manual closing of the window
+#if you wait 0, then it won't close automatically and would wait for manual closing of the window
 #if wait is not working on 64 bit write : "waitKey(5000) & 0xFF" where 0xFF is a mask
 if k==27: #27 is ascii of esc
     cv2.destroyAllWindows() #destroys all windows
