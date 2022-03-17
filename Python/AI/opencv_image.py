@@ -2,7 +2,7 @@
 
 import cv2
 
-#print(cv2.__version__)  #shows version of opencv installed
+print(cv2.__version__)  #shows version of opencv installed
 
 img=cv2.imread('/home/ubuntu/Practice/Python/AI/lena.jpg',1) #first one is image name or path, 
 #2nd one is flag : 1 for colour, 0 for grayscale, -1 includes alpha channel rgb
