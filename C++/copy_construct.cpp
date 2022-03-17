@@ -1,7 +1,7 @@
 /* WAP to create a DB of following details 
 name of student(string), roll no(int), height (int), weight(int)
 1. create class to initialise value
-2. Disp() to display details
+2. Display() to display details
 3. Illustrate the use of copy constructors
 4. Implement destructors */
 
@@ -23,17 +23,17 @@ class Student{
         cout<<"Enter weight : ";
         cin>>weight;
     }
-    void Display(){
+    void Display(){                 // Statement 2
         cout<<endl<<"name is = "<<name<<endl;
         cout<<"roll is = "<<roll<<endl;
         cout<<"height is = "<<height<<endl;
         cout<<"weight is = "<<weight<<endl;
     }
-    ~Student(){
+    ~Student(){                 //Statemnt 4
         cout<<endl<<" Ends "<<endl;
     }
 };
 int main(){
-    Student s1;
-    s1.Display();
-}
+    Student s1;         // Statement 1
+    s1.Display();       // Statement 2
+}  // Statement 4
