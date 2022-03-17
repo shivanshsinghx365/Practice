@@ -1,5 +1,5 @@
 # Practice
-Personal Coding Practice
+Personal Coding Practice Repo
 
 This is a record of all my personal practice files as well as ongoing personal projects
 
