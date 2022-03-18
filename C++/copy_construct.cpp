@@ -1,4 +1,4 @@
-/* WAP to create a DB of following details 
+/* WAP to create a DB of following details
 name of student(string), roll no(int), height (int), weight(int)
 1. create class to initialise value
 2. Display() to display details
