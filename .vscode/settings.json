@@ -6,6 +6,7 @@
     },
     "cSpell.words": [
         "acnum",
+        "appbar",
         "Ename",
         "FOURCC",
         "imread",
@@ -13,9 +14,11 @@
         "imwrite",
         "mili",
         "opencv",
-        "padx"
+        "padx",
+        "wireframe"
     ],
     "cSpell.ignoreWords": [
         "geter"
-    ]
+    ],
+    "dart.flutterSdkPath": "/home/ubuntu/snap/flutter/common/flutter"
 }
