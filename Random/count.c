@@ -2,6 +2,7 @@
 
 #include <stdio.h>
 #include <string.h>
+
 void main(){
     char paragraph[300];
     printf("Enter a paragraph: ");
