@@ -1,3 +1,5 @@
+// reverse the elements
+
 #include <stdio.h>
 
 int main(){

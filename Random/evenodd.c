@@ -1,3 +1,5 @@
+//print even and odd number seperately
+
 #include <stdio.h>
 
 int main(){
@@ -6,7 +8,7 @@ int main(){
     for (int i=0;i<7;i++){
         scanf("%d",&hell[i]);
     }
-    
+
     printf("Even : ");
     for (int i=0;i<7;i++){
         if (hell[i]%2==0){
