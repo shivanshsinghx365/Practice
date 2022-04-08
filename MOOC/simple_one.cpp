@@ -8,11 +8,24 @@
 //C++
 //Bjarne Stroustrup in 1980s, Bell Laboratories
 
-#include <simplecpp>
-int main(){
+/*#include <simplecpp>
+main_program{
     turtleSim();
-    forward(100); right(120); wait(0.5);
-    forward(100); right(120); wait(0.5);
-    forward(100); right(120); wait(0.5);
-    wait(5);    
+    forward(100);right(90);wait(0.5);
+    forward(100);right(90);wait(0.5);
+    forward(100);right(90);wait(0.5);
+    forward(100);right(90);wait(0.5);
+}*/
+
+#include <simplecpp>
+main_program{
+    int n;
+    turtleSim();
+    cout<<"How many sides ? ";
+    cin>>n;
+    repeat(n){          //repeat statement(works like loop)
+        forward(100);
+        right(180-n);
+        wait(0.5);
+    }
 }

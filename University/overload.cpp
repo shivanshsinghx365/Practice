@@ -17,8 +17,8 @@ class hello{
     void display(int c){
         cout<<"2nd display is "<<c<<endl;
     }
-    void operator ++(){                   //operator overloading
-        a=4*5;                            //original a remains unchanged
+    void operator ++(){                    //operator overloading
+        a=4*5;                             //original a remains unchanged
         cout<<"final = "<<a<<endl;
     }
     void operator ++(int b){
@@ -28,10 +28,10 @@ class hello{
     }
 };
 int main(){
-    hello h1;                             //constructors used
+    hello h1;                               //constructors used
     hello h2(7);
-    h2.display();                         //functions used
+    h2.display();                           //functions used
     h1.display(6);
-    h1.operator++();                     //operators used
+    h1.operator++();                        //operators used
     h2.operator++(7);
 }

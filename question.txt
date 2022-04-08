@@ -1,2 +1,0 @@
-pointers to derived class
-static and dynamic binding

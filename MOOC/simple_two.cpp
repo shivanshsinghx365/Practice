@@ -9,7 +9,7 @@ int main(){
     }
     wait(1);
 }*/
-
+/*
 #include <simplecpp>
 int main(){
     cout<<"How Many sides? "; //prints message on screen
@@ -25,4 +25,17 @@ int main(){
     //sine(x),cosine(x),tangent(x) --> x in degrees
     //sin(x),cos(x),tan(x) --> x in radians
     wait(3);
+}*/
+
+#include <simplecpp> //sqaure side 100, wiht mid points joined
+main_program{
+    turtleSim();
+    repeat(4){
+        forward(100);right(90);wait(0.5);
+    }
+    int s = sqrt(50*50*2);
+    forward(50);wait(0.5);right(135);
+    repeat(4){
+        forward(s);left(90);wait(0.5);
+    }
 }
