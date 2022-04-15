@@ -16,14 +16,22 @@ class complex{
 //      cout<<a.real<<" + "<<a.img<<" i "<<endl;
         return a;
     }
+    complex operator - (complex num){
+        complex b;
+        b.real=real-num.real;
+        b.img=img-num.img;
+        return b;
+    }
     void display(){
         cout<<real<<" + "<<img<<"i"<<endl;
     }
 };
 int main(){
-    complex one,two,sum;
+    complex one,two,sum,diff;
     one.enter();
     two.enter();
     sum=one+two;
     sum.display();
+    diff=two-one;
+    diff.display();
 }
