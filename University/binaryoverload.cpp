@@ -11,7 +11,8 @@ class complex{
     }
     complex operator +(complex num){
         complex a;
-        a.real=real+num.real;
+        a.real=real+num.real; // initial real is for object "one", since that is the object through which
+        // the operator + is being called (ie: one is this object or current object though which + is called)
         a.img=img+num.img;
 //      cout<<a.real<<" + "<<a.img<<" i "<<endl;
         return a;
@@ -30,7 +31,7 @@ int main(){
     complex one,two,sum,diff;
     one.enter();
     two.enter();
-    sum=one+two;
+    sum=one+two;   //this is equivalent to one.operator+(two)
     sum.display();
     diff=two-one;
     diff.display();
