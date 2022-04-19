@@ -17,7 +17,6 @@ int main(){
         else{
             cout<<"Result : "<<n/d<<endl;
         } */
-        
     }
     catch(int d){
         cout<<"Division by "<<d<<" Error"<<endl;
