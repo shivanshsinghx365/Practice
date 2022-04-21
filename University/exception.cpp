@@ -11,14 +11,14 @@ int main(){
     cout<<"Enter denominator : ";
     cin>>d;
     try{
-        /*if (d==0){
+        if (d==0){
             throw d;
         }
         else{
             cout<<"Result : "<<n/d<<endl;
-        } */
+        } 
     }
     catch(int d){
         cout<<"Division by "<<d<<" Error"<<endl;
     }
-}   
+}
