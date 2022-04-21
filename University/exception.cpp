@@ -5,22 +5,22 @@
 #include <iostream>
 using namespace std;
 int main(){
-    int n,d;
+    int numerator,denominator;
     cout<<"Enter numerator : ";
-    cin>>n;
+    cin>>numerator;
     cout<<"Enter denominator : ";
-    cin>>d;
+    cin>>denominator;
     try{
-        if (d==0){
+        if (denominator==0){
             cout<<"ZERO"<<endl;
-            throw d;
+            throw denominator;
             cout<<"not executed\n";
         }
         else{
-            cout<<"Result : "<<n/d<<endl;
+            cout<<"Result : "<<numerator/denominator<<endl;
         } 
     }
-    catch(int d){
-        cout<<"Division by "<<d<<" Error"<<endl;
+    catch(int exception){
+        cout<<"Division by "<<exception<<" Error"<<endl;
     }
 }
