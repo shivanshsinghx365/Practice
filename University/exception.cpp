@@ -12,7 +12,9 @@ int main(){
     cin>>d;
     try{
         if (d==0){
+            cout<<"ZERO"<<endl;
             throw d;
+            cout<<"not executed\n";
         }
         else{
             cout<<"Result : "<<n/d<<endl;
