@@ -14,7 +14,7 @@ int main(){
         if (denominator==0){
             cout<<"ZERO"<<endl;
             throw denominator;
-            cout<<"not executed\n";
+            cout<<"Not Executed\n";
         }
         else{
             cout<<"Result : "<<numerator/denominator<<endl;
