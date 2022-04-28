@@ -1,7 +1,23 @@
 #include <iostream>
+
 using namespace std;
-int main(){
-    int s;
-    s=7.9;
-    cout<<"out = "<<s<<endl;
+class area{
+    public:
+    int l,b;
+    area(){
+        int area=0;
+        cout<<area<<endl;
+    }
+    area(int l,int b){
+        int area=l*b;
+        cout<<area<<endl;
+    }
+    ~area(){
+        cout<<"end"<<endl;
+    }
+};
+
+int main() {
+    area react;
+    area last(2,3);
 }
