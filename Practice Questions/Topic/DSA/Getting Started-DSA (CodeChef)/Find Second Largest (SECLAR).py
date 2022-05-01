@@ -1,0 +1,10 @@
+#https://www.codechef.com/CCSTART2/problems/SECLAR
+a=int(input(''))
+b=int(input(''))
+c=int(input(''))
+l=[]
+l.append(a)
+l.append(b)
+l.append(c)
+l.remove(max(l))
+print(max(l))
