@@ -1,7 +1,7 @@
 #https://www.codechef.com/START25C/problems/FRUITCHAAT
-t=int(input(''))
+t=int(input())
 while(t>0):
-    a = input('')
+    a = input()
     k=a.split(' ')
     x=int(k[0])
     y=int(k[1])
