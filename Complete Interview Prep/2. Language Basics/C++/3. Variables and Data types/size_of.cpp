@@ -5,6 +5,7 @@
 using namespace std;
 int main(){
     cout<<sizeof(char)<<" "; //size can be taken by datatype name
+    //Sizeof can be used without brackets like "sizeof char" aswell
     //char is 1 byte
     char c;
     cout<<sizeof(c)<<" ";//size can be taken by variable name
