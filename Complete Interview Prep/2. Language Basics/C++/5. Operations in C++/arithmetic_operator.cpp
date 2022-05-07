@@ -22,6 +22,6 @@ int main(){
     //the results might be unexpected due to dependency on compiler since compiler decides how to deal
     // z=x++ + ++x; //Undefined behaviour, it depends on compiler
     //z=x++/x++
-    //z=x++ * ++x
+    //z=x++ * ++x. 
     return 0;
 }
