@@ -9,7 +9,7 @@ int main(){
     z=(double)x/y; //Output is 0.5 since output has been typecasted to double
     //this is a old C_style typecasting meaning it is similar to c;
     //doesn't show trailing zeros by default
-    // in cases like this if one is converted to double the entire answer is converted to double
+    //in cases like this if one is converted to double the entire answer is converted to double
     //this kind of upward typecasting occurs automatically when dealing with operations of different data types
     //character to int, int to double etc
     cout<<z<<endl;

@@ -19,7 +19,7 @@ int main(){
     cout<<x<<" "<<z<<" ";//12 12
     cout<<endl;
     //NOTE : do not perform multiple pre/post increments on same variable in same statement 
-    //the results might be unexpected due to dependency on compiler since compiler decides how to deal
+    //the results might be unexpected due to dependency on compiler since compiler decides how to deal with this situation
     // z=x++ + ++x; //Undefined behaviour, it depends on compiler
     //z=x++/x++
     //z=x++ * ++x
