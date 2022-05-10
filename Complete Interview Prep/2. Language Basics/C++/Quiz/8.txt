@@ -1,0 +1,8 @@
+signed s;
+unsigned u;
+long l;
+long long ll;
+
+Answer : All of the above variable definitions are correct because
+int is implicitly assumed in all of these.
+

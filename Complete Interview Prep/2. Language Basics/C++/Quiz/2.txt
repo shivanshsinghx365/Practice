@@ -1,0 +1,5 @@
+Ques : Which file is generated after pre-processing of a C program?
+Ans : .i file
+Explanation
+A *.i file is an output of the C/C++ preprocessor.
+It is usually this extension which is characteristic of files created as the preprocessor output.

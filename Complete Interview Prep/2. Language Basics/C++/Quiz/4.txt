@@ -1,0 +1,8 @@
+Given the following macro:
+#define hypotenuse(a, b) sqrt(a*a+b*b)
+The call hypotenuse(a+2,b+3)
+
+Ans : finds the square root of 3*a + 4*b + 5
+
+Explanation
+The call hypotenuse(a+2,b+3) is replaced by a+2*a+2+b+3*b+3 which reduces to 3*a+4*b+5.
