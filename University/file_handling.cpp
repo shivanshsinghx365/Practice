@@ -6,7 +6,6 @@ int main(){
     f.open("hello_world.txt");
     f<<"Hello from earth";
     f.close();
-
     ifstream fh;
     fh.open("hello_world.txt");
     int _=7; //identifier can also be just an underscore
