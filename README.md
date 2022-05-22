@@ -1,13 +1,13 @@
 # Practice
 
-Personal Coding Practice Repo
+Personal Coding Practice Repository
 
 This is a record of all my personal practice files as well as ongoing personal projects
 
 Here you will find my
-- Codechef Solutions
-- Geeksforgeeks Solution
-- Practice files in c, c++, and python
+- Online Coding practice solutions
+- Self-Practice files in various languages & technologies
 - Random small projects and snippets
+- Ongoing Medium/Large Projects
 - University's practice
-- & a lot of other ongoing practice, etc.s
+- & a lot of other practice, quizzes, notes, etc.
