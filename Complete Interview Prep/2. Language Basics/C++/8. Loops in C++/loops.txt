@@ -16,3 +16,7 @@ while loop is also preferred in infinite loops like in servers, while(True) is i
 
 do while loops is exit controlled loop, other 2 were entry controlled, which means first thing is done then condition is checked
 do-while executes at least once
+
+most algorithms use some kind of loops
+
+some other new shortcut loops have been added in c++ in recent versions of it, example "range based for loop"
