@@ -1,0 +1,18 @@
+USES OF LOOPS -->
+1. To do something repeatedly
+2. To iterate through containers like arrays, list, etc.
+3. To run something forever like web servers or other system services (they are always checking for new requests/action by users)
+4. To do something again and again while a particular condition holds true
+
+When iterating through n array where i can be used as index of array as well, we use for loop
+or if we have simple syntax, like we are modifying i by fixed amounts we use for loop
+
+When we have more complex logics with different modifications in different cases, we prefer while loops
+bcz while loop has flexibility to put increment decrement anywhere
+
+in for loop ideally increment/decrement is  as the last statement, otherwise it becomes difficult to repeatedly
+
+while loop is also preferred in infinite loops like in servers, while(True) is infinite
+
+do while loops is exit controlled loop, other 2 were entry controlled, which means first thing is done then condition is checked
+do-while executes at least once
