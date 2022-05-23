@@ -1,0 +1,9 @@
+---- APPLICATIONS OF FUNCTIONS ----
+1. Avoid code redundancy/duplicacy (example you have to check even/odd at multiple places in program, you put its code in a function and call it as required without coding for it again and again)
+2. Make code modular (divides the program into smaller, easier to read & manage sub-parts)
+3. Increases program readability
+4. Divide a complex problem into simpler ones
+5. Reduces chances of error
+6. Modifying a program becomes easier
+7. Abstraction (example: in library functions we don't need to worry about how they work)
+8. It makes code more maintainable (making changes require you to make change in just one function instead of whole program)

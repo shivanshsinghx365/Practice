@@ -1,0 +1,21 @@
+A function is a block of code that takes some input and returns some output,
+however these inputs and outputs are optional.
+Function can also be considered as a block of code that performs certain operation.
+
+Every C++ program has a main function, execution always begins from the first line of this main function
+When function call is encountered, the main function's state is saved till that point
+and the control goes to the function definition
+after this when function ends the control returns back to the main program and normal execution continues
+from the same point where it had stopped
+
+in other word's the state of caller function is saved till the point of function call
+and control goes to called function, when called function is completed
+the control returns to the caller function, and execution continues from the previously saved state
+
+functions can be called within same or other functions too, apart from main
+
+function execution ends when it reaches the last line or the return statement
+
+when function ends memory is released and if there are returned values then they are passed to the place they were called at/by
+
+function calls follow the principle of LIFO last in first out, as apparent in case there are functions within functions

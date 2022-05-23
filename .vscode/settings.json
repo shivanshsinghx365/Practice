@@ -75,6 +75,7 @@
     ],
     "cSpell.ignoreWords": [
         "addo",
+        "duplicacy",
         "geter"
     ],
     "dart.flutterSdkPath": "/home/ubuntu/snap/flutter/common/flutter"
