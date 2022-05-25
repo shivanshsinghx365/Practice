@@ -1,6 +1,11 @@
 Inline Function : 
+used for small functions
+Function calls cause additional overheads in the program since the state of the program being saved, the control going to the function and then returning to the main program to resume the execution
+thus to deal with such issues inline functions were created, since they do not cause overheads
+whenever inline functions are called they are replaced by their definition directly in the main program thus preventing any overhead
 
 Function Overloading : 
+
 
 Default Arguments : 
 
