@@ -1,11 +1,23 @@
 Inline Function : 
 used for small functions
-Function calls cause additional overheads in the program since the state of the program being saved, the control going to the function and then returning to the main program to resume the execution
+Function calls cause additional overheads in the program since the state of the program is being saved, the control going to the function and then returning to the main program to resume the execution
 thus to deal with such issues inline functions were created, since they do not cause overheads
 whenever inline functions are called they are replaced by their definition directly in the main program thus preventing any overhead
 
-Function Overloading : 
+Inline vs Macros:
+1. uses keyword 'inline' and '#define' respectively
+2. can be declared inside/outside class and can't be declared inside class respectively
+3. strict parameter type checking and no parameter type checking
+4. macros just expand so, 
+#define add(x,y) x+y
+cout<<4*add(10,20);  // this will give you 60 and not 120, since x+y is not calculated, its just replaced giving result 4*10+20=40+20=60
+functions(including inline functions) on the other hand take care of these things, they are first calculated then replaced
+5. macros are not bound by anything, inline start and end with curly braces {}
+6. in macros you don't give data type of the parameter you use, you just give them a name
+example: add(x,y) not add(int x,int y), this is because macros don't care about datatype
 
+Function Overloading : 
+function Overloading is when the same function has multiple implement
 
 Default Arguments : 
 
