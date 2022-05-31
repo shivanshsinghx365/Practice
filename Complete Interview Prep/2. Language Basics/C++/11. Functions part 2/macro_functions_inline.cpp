@@ -32,4 +32,4 @@ int main(){
     e=4*inlineAdd(a,b);  //ouput =120
     cout<<"inlineAdd = "<<e<<endl;
 
-}
+}   
