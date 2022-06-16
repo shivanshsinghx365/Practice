@@ -73,6 +73,9 @@
         "padx",
         "Rashid",
         "Sandeep",
+        "strcmp",
+        "strcpy",
+        "strlen",
         "wireframe"
     ],
     "cSpell.ignoreWords": [
