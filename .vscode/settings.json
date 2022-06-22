@@ -76,6 +76,7 @@
         "strcmp",
         "strcpy",
         "strlen",
+        "typecasted",
         "wireframe"
     ],
     "cSpell.ignoreWords": [

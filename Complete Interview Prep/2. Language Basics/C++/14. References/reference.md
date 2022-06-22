@@ -1,6 +1,7 @@
 ### Reference
 
 These simply create another name for a variable
+In other words a reference variable is an alias, that is, another name for an already existing variable.
 
 **Applications :**
 1. To modify a passed parameter
