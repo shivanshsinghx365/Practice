@@ -1,1 +1,4 @@
-#markdown
+### **Stack Unwinding in C++ Exception Handling**
+---
+
+Stack unwinding concept states that if a function throws an exception and if this function does not handle this exception, it goes out of the function call stack, after this the control goes to the caller. And if the caller also can not handle the exception the function goes out of the function call stack, then the control goes to the caller of the caller and we keep on searching the handler for the exception in the function call stack until we find the handler. and once we find the handler, it gets control and it handles the exception and the program continues after the handler.
