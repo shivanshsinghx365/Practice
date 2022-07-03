@@ -68,6 +68,8 @@
         "imread",
         "imshow",
         "imwrite",
+        "Intelli",
+        "javac",
         "mili",
         "opencv",
         "padx",

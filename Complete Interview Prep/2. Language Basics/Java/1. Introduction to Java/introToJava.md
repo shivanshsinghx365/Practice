@@ -1,11 +1,11 @@
 ### **Introduction to Java**
+
 ---
 
 Java is a high-level, class-based, object-oriented programming language that is designed to have as few implementation dependencies as possible.
 Introduced in 1995, one of the most popular language for decades.
 Creator : James Gosling
 For : Sun Microsystems, Inc.
-
 
 - **Platform Independent**
 
@@ -16,10 +16,11 @@ Before Java we used to compile for each platform using the compiler, and it used
 However, in Java When we compile it creates an intermediate code called "Java Byte Code".
 This byte code can run on any platform which has that platform's JVM(Java Virtual Machine) pre-installed
 
-JVM is a machine specific software which is responsible for running java byte code on that machine, by converting the general java byte code into machine specific instructions.
+JVM is a machine specific software which is responsible for running java byte code on that machine, by converting the general java byte code into machine specific instructions/binary code.
 
 Java is "Write Once, Run Anywhere" (WORA) Programming language.
 Java introduced platform independence
+Java programs are "PORTABLE"
 
 Java has a simple compilation and complex running process, on the other hand C/C++ have complex compilation and running part is simple.
 
@@ -53,3 +54,4 @@ cons : dynamic typing is easier since we don't have to worry about declaration o
 3. better exception handling
 4. better multi-threading 
 5. Java prevents us from writing bad code : during compilation itself, it forces us to write a more maintainable and efficient code, this is why it is language of "Industries" & "software Developers" rather than language of students.
+6. Size of primitive data-type is fixed : unlike in c/c++ where it was differed from compiler to compiler
