@@ -89,7 +89,8 @@
     ],
     "dart.flutterSdkPath": "/home/ubuntu/snap/flutter/common/flutter",
     "java.project.sourcePaths": [
+        "Complete Interview Prep/2. Language Basics/Java/3. Variables and Primitive DataTypes",
         "Complete Interview Prep/2. Language Basics/Java/2. Writing First Program in Java",
-        "Complete Interview Prep/2. Language Basics/Java/3. Variables and Primitive DataTypes"
+        "Complete Interview Prep/2. Language Basics/Java/4. Non Primitive DataTypes"
     ]
 }
