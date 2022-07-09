@@ -1,5 +1,3 @@
-//NOTE : JAVA STRINGS ARE IMMUTABLE, so if you want to make changes you have to store those changes in another variable
-
 public class Strings {
     public static void main(String[] args) {
         //Concatenate to add 2 stings
@@ -22,8 +20,6 @@ public class Strings {
         //substring -  used to get a part of a string
         System.out.println(name1.substring(0,4)); //just like python last index is not printed so its printed from start till last-1
         System.out.println(name1.substring(4, 8)); // note this an't go beyond size of string so i can't write last index randomly as 20 for example
-
-
-
+        //NOTE : JAVA STRINGS ARE IMMUTABLE, so if you want to make changes you have to store those changes in another variable
     }
 }
