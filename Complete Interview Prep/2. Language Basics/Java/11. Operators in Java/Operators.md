@@ -2,5 +2,3 @@
 ---
 
 * Arithmetic Operators
-
-
