@@ -7,7 +7,7 @@ there are mainly 2 ways to read input
 
 **Buffered Reader**
 Buffered reader is a simple class which is used to read a character or a sequence of characters
-if has three functions which read character, array of characters and line respectively
+it has three functions which read character, array of characters and line respectively
 
 it is a part of java.io
 

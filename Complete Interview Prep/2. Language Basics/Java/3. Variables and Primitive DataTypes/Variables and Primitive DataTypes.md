@@ -53,8 +53,8 @@ double     :    Double Precision 64 bit
 char       :    16 Bit Unicode characters ('\u0000' to '\uffff'), in c/c++ chars are 8 bits, the idea is allow for unicode characters, to support characters other than english too. IT is not signed so range from (0 to 2^16 -1)
 
 Note : 1 bit is for sign and rest 7, 15 & 31 bits in byte,short and int respectively are used to store values
-Internally signed variables in java use 2's complement representation to represent negative numbers nd positives are used as it is
+Internally signed variables in java use 2's complement representation to represent negative numbers and positives are used as it is
 
-Big integer class can be used to store even more larger  numbers
+Big integer class can be used to store even more larger numbers
 
-the values that we write on the right side are called literals. 
+the values that we write on the right side are called literals.

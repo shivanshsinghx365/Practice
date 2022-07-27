@@ -5,6 +5,7 @@ Java allows us to have non-primitive types for each of the primitive types.
 
 **Primitive types :** char,byte,short,int,long,float,double,boolean
 **Wrapper Class :** Character,Byte,Short,Integer,Long,Float,Double,Boolean
+
 Example :
 `int x1=10;   //primitive`
 `Integer x = new Integer(10);  //wrapper class, non-primitive reference`

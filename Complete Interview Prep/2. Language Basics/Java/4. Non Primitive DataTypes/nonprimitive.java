@@ -7,6 +7,6 @@ public class nonprimitive {
         point p = new point();
         p.x=10;
         p.y=20;
-        System.out.println(p.x+"  "+p.y); //using plus we can print int as well via concatenating i guess
+        System.out.println(p.x+"  "+p.y); //using plus we can print int as well via concatenating
     }
 }

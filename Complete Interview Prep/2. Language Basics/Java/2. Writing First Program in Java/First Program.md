@@ -28,4 +28,5 @@ Dev Tools are the tools that are required for development like Java Compiler, Ja
 
 The PATH is an environment variable which the shell (or other command interpreter) uses to search for commands. 
 
-A method is a procedure or function in object-oriented programming. A function is a group of reusable code which can be called anywhere in your program
+* A method is a procedure or function in object-oriented programming.
+* A function is a group of reusable code which can be called anywhere in your program
