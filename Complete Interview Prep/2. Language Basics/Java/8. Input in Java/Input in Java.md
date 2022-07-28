@@ -27,7 +27,7 @@ import is a keyword which is used for using library classes or other classes whi
 
 `*` after import indicated that we want to import all classes from the IO package
 
-Packages in Java Are a Way to organize ou software. 
+Packages in Java Are a Way to organize our software. 
 
 Classes contain related functions
 Packages contain related classes
